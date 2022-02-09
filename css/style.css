@@ -8,34 +8,25 @@
     height: 40px;
 }
 
+[class*="col"]{
+    border: 1px solid white;
+    background-color: blue;
+    color: white;
+}
 .centre{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.size{
-    height: 50px;
-}
-
-[class*="col"]{
-    border: 1px solid white;
-    background-color: blue;
-    color: white;
-}
-
 .green{
     background-color: rgb(30, 241, 30);
     border: solid 1px blue;
-
 }
 
 .col-6 > .row{ 
     border:3px solid blue; 
-    
 }
-
-
 
 .pad2{
     padding-top: 30px;
