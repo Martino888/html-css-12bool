@@ -5,7 +5,7 @@
 }
 
 .row{
-    height: 40px;
+    height: 50px;
 }
 
 [class*="col"]{
@@ -25,7 +25,9 @@
 }
 
 .col-6 > .row{ 
-    border:3px solid blue; 
+    border: 3px solid blue;
+    height: 35px;
+    margin: 7px;
 }
 
 .pad2{
