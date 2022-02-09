@@ -4,8 +4,20 @@
     box-sizing: border-box;
 }
 
+.row{
+    height: 30px;
+}
 
 [class*="col"]{
     border: 1px solid white;
     background-color: blue;
+}
+
+.green{
+    background-color: green;
+    border: solid 1px blue;
+}
+
+.col-6 > .row{
+    border:3px solid blue;
 }
