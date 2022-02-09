@@ -72,6 +72,9 @@
     flex-basis: calc((100% / 12) * 5);
 }
 
-.col{
-    flex-basis: calc((100% / 12) * 5);
+
+/* colum 12/12*/
+
+.col-b12{
+    flex-basis: calc((100% / 12) * 12);
 }
